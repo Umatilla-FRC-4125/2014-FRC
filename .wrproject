@@ -244,14 +244,14 @@
         </mapAttribute>
     </attributes>
     <buildtargets>
-        <buildtarget buildtool="Linker" name="IterativeTemplate" passed="false" targetname="IterativeTemplate">
+        <buildtarget buildtool="Linker" name="2014-FRC" passed="false" targetname="2014-FRC">
             <contents>
-                <buildtargetreference name="/IterativeTemplate/IterativeTemplate_partialImage"/>
+                <buildtargetreference name="/2014-FRC/2014-FRC_partialImage"/>
             </contents>
         </buildtarget>
-        <buildtarget buildtool="Partial Image Linker" name="IterativeTemplate_partialImage" passed="true" targetname="IterativeTemplate_partialImage">
+        <buildtarget buildtool="Partial Image Linker" name="2014-FRC_partialImage" passed="true" targetname="2014-FRC_partialImage">
             <contents>
-                <folder name="/IterativeTemplate" recursive="true"/>
+                <folder name="/2014-FRC" recursive="true"/>
             </contents>
         </buildtarget>
     </buildtargets>
